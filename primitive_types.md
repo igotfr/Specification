@@ -50,4 +50,11 @@ type | name | description | Langs
 [T; N] | array | A fixed-size homogeneous array, denoted `[T; N]`, for the element type, `T`, and the non-negative compile-time constant size, `N` | Rust
 (T1, T2, ..) | tuple | A finite heterogeneous sequence, `(T, U, ..)` | Rust
 [T] | slice | A dynamically-sized view into a contiguous sequence, `[T]`. Contiguous here means that elements are laid out so that every element is the same distance from its neighbors | Rust
+&[T] | shared slice | | Rust
+&mut [T] | mutable slice | | Rust
 
+### Strings
+type | name | Langs
+---- | ----------- | -----
+str |	string slices | Rust
+&str | shared string slice | Rust
